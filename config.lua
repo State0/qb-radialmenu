@@ -470,13 +470,97 @@ Config.JobInteractions = {
             type = 'client',
             event = 'hospital:client:RevivePlayer',
             shouldClose = true
-        },{
-            id = 'treatwounds',
-            title = 'Heal wounds',
+        }, {
+            id = 'treatments',
+            title = 'Treatments',
             icon = 'bandage',
-            type = 'client',
-            event = 'hospital:client:TreatWounds',
-            shouldClose = true
+            items = {
+                {
+                    id = 'treatwounds',
+                    title = 'Heal wounds',
+                    icon = 'bandage',
+                    type = 'client',
+                    event = 'hospital:client:TreatWounds',
+                    shouldClose = true
+                }, {
+                    id = 'morphium',
+                    title = 'Morphium',
+                    icon = 'bandage',
+                    type = 'client',
+                    event = 'hospital:client:GiveMorphium',
+                    shouldClose = true
+                }, {
+                    id = 'epipen',
+                    title = 'Epipen',
+                    icon = 'bandage',
+                    type = 'client',
+                    event = 'hospital:client:EpiPen',
+                    shouldClose = true
+                }
+            }
+        }, {
+            id = 'blood',
+            title = 'Blood Works',
+            icon = 'bandage',
+            items = {
+                {
+                    id = 'giveblood',
+                    title = 'Give AB+',
+                    icon = 'bandage',
+                    type = 'client',
+                    event = 'hospital:client:GiveBlood1',
+                    shouldClose = true
+                }, {
+                    id = 'giveblood2',
+                    title = 'Give AB-',
+                    icon = 'bandage',
+                    type = 'client',
+                    event = 'hospital:client:GiveBlood2',
+                    shouldClose = true
+                }, {
+                    id = 'giveblood3',
+                    title = 'Give A+',
+                    icon = 'bandage',
+                    type = 'client',
+                    event = 'hospital:client:GiveBlood3',
+                    shouldClose = true
+                }, {
+                    id = 'giveblood4',
+                    title = 'Give A-',
+                    icon = 'bandage',
+                    type = 'client',
+                    event = 'hospital:client:GiveBlood4',
+                    shouldClose = true
+                }, {
+                    id = 'giveblood5',
+                    title = 'Give B+',
+                    icon = 'bandage',
+                    type = 'client',
+                    event = 'hospital:client:GiveBlood5',
+                    shouldClose = true
+                }, {
+                    id = 'giveblood6',
+                    title = 'Give B-',
+                    icon = 'bandage',
+                    type = 'client',
+                    event = 'hospital:client:GiveBlood6',
+                    shouldClose = true
+                }, {
+                    id = 'giveblood7',
+                    title = 'Give 0+',
+                    icon = 'bandage',
+                    type = 'client',
+                    event = 'hospital:client:GiveBlood7',
+                    shouldClose = true
+                }, {
+                    id = 'giveblood8',
+                    title = 'Give 0-',
+                    icon = 'bandage',
+                    type = 'client',
+                    event = 'hospital:client:GiveBlood8',
+                    shouldClose = true
+                }
+            }
         }, {
             id = 'emergencybutton2',
             title = 'Emergency button',
